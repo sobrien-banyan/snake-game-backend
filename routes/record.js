@@ -57,6 +57,7 @@ recordRoutes.route("/record/add").post(function (req, response) {
  db_connect.collection("name_score").insertOne(req.body).then(res => 
   response.json(res)
   ).catch(err => console.error(err.message));
+  response.status(200);
 });
  
 // This section will help you update a record by id.
