@@ -54,10 +54,9 @@ recordRoutes.route("/record/:id").get(function (req, res) {
 // This section will help you create a new record.
 recordRoutes.route("/record/add").post(function (req, response) {
  let db_connect = dbo.getDb();
- db_connect.collection("name_score").insertOne(req.body, function (err, res) {
-   if (err) throw err;
-   response.json(res);
- });
+ db_connect.collection("name_score").insertOne(req.body).then(res => 
+  response.json(res)
+  ).catch(err => console.error(err.message));
 });
  
 // This section will help you update a record by id.
