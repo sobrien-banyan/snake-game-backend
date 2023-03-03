@@ -1,7 +1,7 @@
-# server for portfolio
+# server for [Snake game](https://github.com/sobrien-banyan/snake-game)
 
 ## Over view
-### This README lays out the steps for creating a mongodb on Mongdb Atlas, hosting the Node.js/express   server on an AWS EC2 instance and adding a domain name and SSL certificate.
+### This README lays out the steps for creating a mongodb on Mongdb Atlas, hosting the Node.js/express   server on an AWS EC2 instance and adding a domain name and SSL certificate. This repo is used with a react front-end: https://github.com/sobrien-banyan/snake-game
 
 ## Step to create mongo data base on MongoDB Atlas
 
