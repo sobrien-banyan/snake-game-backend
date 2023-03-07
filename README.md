@@ -3,6 +3,10 @@
 ## Over view
 ### This README lays out the steps for creating a mongodb on Mongdb Atlas, hosting the Node.js/express   server on an AWS EC2 instance and adding a domain name and SSL certificate. This repo is used with a react front-end: https://github.com/sobrien-banyan/snake-game
 
+## If you haven't done so fork both the front end and back end repos to your github account.
+https://github.com/sobrien-banyan/snake-game
+https://github.com/sobrien-banyan/snake-game-backend
+
 ## Step to create mongo data base on MongoDB Atlas
 
 1. Sign up or login to [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register). You can follow the tutorial for creating a mongo database or follow the steps below.
@@ -126,27 +130,3 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- when install node-modules on the server run the following command `sudo apt install npm` & `sudo npm install pm2 -g`
-`sudo apt-get install -y nodejs`
-### to get the pm2/server to stay running `pm2 start npm --name "server`
-`curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -`
-
-`curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash `
-### resource
-https://jasonwatmore.com/post/2019/11/18/react-nodejs-on-aws-how-to-deploy-a-mern-stack-app-to-amazon-ec2 -->
